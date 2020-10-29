@@ -4,6 +4,7 @@ from pathlib import Path
 from tkinter import Tk
 from tkinter.filedialog import askdirectory
 from tkinter.messagebox import showinfo
+
 from PIL import Image
 
 
@@ -25,7 +26,8 @@ except IndexError:
     Tk().withdraw()
     cwd = os.getcwd()
     input_folder = askdirectory(title='Select the directory containing the jpg images to be converted', initialdir=cwd)
-    output_folder = askdirectory(title='Select or Create directory for the converted images to be saved', initialdir=cwd)
+    output_folder = askdirectory(title='Select or Create directory for the converted images to be saved',
+                                 initialdir=cwd)
 
 try:
     os.mkdir(f'{output_folder}')
