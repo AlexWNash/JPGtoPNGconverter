@@ -4,3 +4,8 @@ This is setup to be run from the command line with two command line parameters, 
 
 C:\ python3 JPGtoPNGconverter.py \ *jpg dir* \ *target dir*
 
+Updated:
+If no command line arguments are given then it will open a file dialog to allow you to select the folders that way.
+
+Will only convert .jpg files so there can be other files in the initial directory without a problem.
+
