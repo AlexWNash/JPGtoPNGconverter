@@ -4,7 +4,6 @@ from pathlib import Path
 from tkinter import Tk
 from tkinter.filedialog import askdirectory
 from tkinter.messagebox import showinfo
-
 from PIL import Image
 
 
